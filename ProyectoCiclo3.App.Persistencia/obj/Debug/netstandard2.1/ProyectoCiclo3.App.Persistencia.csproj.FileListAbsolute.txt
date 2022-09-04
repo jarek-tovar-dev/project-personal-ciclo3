@@ -23,3 +23,16 @@ C:\ucaldas-mintic\progra-ciclo3\proyecto1-ciclo3-jarektovar-master\ProyectoCiclo
 C:\ucaldas-mintic\progra-ciclo3\proyecto1-ciclo3-jarektovar-master\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
 C:\ucaldas-mintic\progra-ciclo3\proyecto1-ciclo3-jarektovar-master\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
 C:\ucaldas-mintic\progra-ciclo3\proyecto1-ciclo3-jarektovar-master\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.deps.json
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.AssemblyReference.cache
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfoInputs.cache
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfo.cs
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb

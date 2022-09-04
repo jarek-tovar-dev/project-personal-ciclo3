@@ -17,3 +17,13 @@ C:\ucaldas-mintic\progra-ciclo3\proyecto1-ciclo3-jarektovar-master\ProyectoCiclo
 C:\ucaldas-mintic\progra-ciclo3\proyecto1-ciclo3-jarektovar-master\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
 C:\ucaldas-mintic\progra-ciclo3\proyecto1-ciclo3-jarektovar-master\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\ucaldas-mintic\progra-ciclo3\proyecto1-ciclo3-jarektovar-master\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.deps.json
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.AssemblyReference.cache
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
+C:\ucaldas-mintic\project-personal-ciclo3\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb

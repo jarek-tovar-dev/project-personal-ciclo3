@@ -7268,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
       "projectName": "ProyectoCiclo3.App.Persistencia",
-      "projectPath": "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+      "projectPath": "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\jarek\\.nuget\\packages\\",
-      "outputPath": "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Persistencia\\obj\\",
+      "outputPath": "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7289,8 +7289,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
-              "projectPath": "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
+            "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+              "projectPath": "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
             }
           }
         }

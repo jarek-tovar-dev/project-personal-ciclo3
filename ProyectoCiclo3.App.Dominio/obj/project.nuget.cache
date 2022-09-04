@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v0rmGegKomkBK+YAITA/jsUcRSfybkiWgUsM9YxbjZdlUL/v/XVppf/lRQx0v0CbiJ1BXAL5nWI/TmV/VFTTxQ==",
+  "dgSpecHash": "RCpS67ITHJDxIlMNEl61HeW6zNfojmrV/c/SCQgny25buEOqflhmGZA9Bbnu7590Uu0CEe7w547S7A30ldAl0w==",
   "success": true,
-  "projectFilePath": "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "projectFilePath": "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jarek\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jarek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

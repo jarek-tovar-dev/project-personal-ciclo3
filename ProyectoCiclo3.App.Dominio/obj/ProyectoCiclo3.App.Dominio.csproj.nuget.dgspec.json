@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {}
+    "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+    "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
         "projectName": "ProyectoCiclo3.App.Dominio",
-        "projectPath": "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "projectPath": "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\jarek\\.nuget\\packages\\",
-        "outputPath": "C:\\ucaldas-mintic\\progra-ciclo3\\proyecto1-ciclo3-jarektovar-master\\ProyectoCiclo3.App.Dominio\\obj\\",
+        "outputPath": "C:\\ucaldas-mintic\\project-personal-ciclo3\\ProyectoCiclo3.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
