@@ -1,42 +1,33 @@
 @page
+@model ProyectoCiclo3.App.Frontend.Pages.ListBusModel
 @{
 }
 
-<table class="table table-hover">
+<h1>Listado de Buses</h1>
+<table class="table">
     <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Marca</th>
-            <th scope="col">Modelo</th>
-            <th scope="col">Kilometraje</th>
-            <th scope="col">Numero de asientos</th>
-            <th scope="col">Placa</th>
-        </tr>
+        <th>Id</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Kilometraje</th>
+        <th>Numero de asiento</th>
+        <th>Placa</th>
+        <th>Acciones</th>
     </thead>
-    <tbody>
+    @foreach (var bus in Model.Buses)
+    {
         <tr>
-            <th scope="row">1</th>
-            <td>Marcopolo</td>
-            <td>2011</td>
-            <td>16000</td>
-            <td>40</td>
-            <td>ASD11</td>
+            <td>@bus.id</td>
+            <td>@bus.marca</td>
+            <td>@bus.modelo</td>
+            <td>@bus.kilometraje</td>
+            <td>@bus.numero_asientos</td>
+            <td>@bus.placa</td>
+            <td>
+                <a class="btn btn-info" asp-page="./Details" asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
+                <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@bus.id">Editar</a>
+                <a class="btn btn-danger" href="">Eliminar</a>
+            </td>
         </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>DSL</td>
-            <td>2019</td>
-            <td>1200</td>
-            <td>40</td>
-            <td>ASD22</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Benz</td>
-            <td>2020</td>
-            <td>1400</td>
-            <td>40</td>
-            <td>ASD33</td>
-        </tr>
-    </tbody>
+    }
 </table>
