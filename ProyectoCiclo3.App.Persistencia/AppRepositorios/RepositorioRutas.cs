@@ -14,7 +14,8 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             rutas= new List<Rutas>()
             {
                 new Rutas{id=1, origen= new Estaciones{}, destino = new Estaciones{}, tiempo_estimado= 10},
-                new Rutas{id=2, origen= new Estaciones{}, destino = new Estaciones{}, tiempo_estimado= 20}
+                new Rutas{id=2, origen= new Estaciones{}, destino = new Estaciones{}, tiempo_estimado= 20},
+                new Rutas{id=3, origen= new Estaciones{}, destino = new Estaciones{}, tiempo_estimado= 30}
             };
         }
  
