@@ -39,6 +39,24 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             }
             return estacion;
         }
+        
+        public Estaciones Create(Estaciones newEstacion)
+        {
+           if(estaciones.Count > 0){
+                newEstacion.id = estaciones.Max(e => e.id) +1; 
+            }else{
+               newEstacion.id = 1; 
+            }
+           estaciones.Add(newEstacion);
+           return newEstacion;
+        }
+
+        public Estaciones Delete(int id)
+        {
+            var estacion= estaciones.SingleOrDefault(e => e.id == id);
+            estaciones.Remove(estacion);
+            return estacion;
+        }
     }
 
 }
