@@ -2,41 +2,59 @@ using System.Collections.Generic;
 using ProyectoCiclo3.App.Dominio;
 using System.Linq;
 using System;
- 
+using Microsoft.EntityFrameworkCore;
+
 namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 {
     public class RepositorioRutas
     {
-        List<Rutas> rutas;
- 
-    public RepositorioRutas()
-        {
-            rutas= new List<Rutas>()
-            {
-                new Rutas{id=1, origen= new Estaciones{id=4,nombre="Centro1",direccion= "cra 90",coord_x= "14.4545",coord_y= "4.1254545",tipo= "Principal"}, destino = new Estaciones{id=5,nombre="Centro2",direccion= "cra 90",coord_x= "14.4545",coord_y= "4.1254545",tipo= "Principal"}, tiempo_estimado= 10},
-                new Rutas{id=2, origen= new Estaciones{}, destino = new Estaciones{}, tiempo_estimado= 20},
-                new Rutas{id=3, origen= new Estaciones{}, destino = new Estaciones{}, tiempo_estimado= 30}
-            };
-        }
- 
+        private readonly AppContext _appContext = new AppContext();   
+        public Rutas Ruta {get;set;}
+        public Estaciones Estacion {get;set;}
+
+
         public IEnumerable<Rutas> GetAll()
         {
-            return rutas;
-        }
- 
-        public Rutas GetWithId(int id){
-            return rutas.SingleOrDefault(e => e.id == id);
+        return _appContext.Rutas.Include(e => e.origen)
+                                .Include(e => e.destino);
+
         }
 
+        public Rutas GetWithId(int id){
+            return _appContext.Rutas.Find(id);
+        }
+
+        public Rutas Create(int origen, int destino, int tiempo_estimado)
+        {
+            var newRuta = new Rutas();
+            newRuta.origen = _appContext.Estaciones.Find(origen);;
+            newRuta.destino = _appContext.Estaciones.Find(destino);           
+            newRuta.tiempo_estimado = tiempo_estimado;
+
+            var addRuta = _appContext.Rutas.Add(newRuta);
+            _appContext.SaveChanges();
+            return addRuta.Entity;
+        }
+
+        public void Delete(int id)
+        {
+        var ruta = _appContext.Rutas.Find(id);
+            if (ruta != null){
+                _appContext.Rutas.Remove(ruta);
+                _appContext.SaveChanges();            
+            }
+        }
 
         public Rutas Update(Rutas newRuta){
-            var ruta= rutas.SingleOrDefault(b => b.id == newRuta.id);
+            var ruta = _appContext.Rutas.Find(newRuta.id);;
             if(ruta != null){
                 ruta.origen = newRuta.origen;
                 ruta.destino = newRuta.destino;
-                ruta.tiempo_estimado= newRuta.tiempo_estimado;
+                ruta.tiempo_estimado = newRuta.tiempo_estimado;
+                //Guardar en base de datos
+                 _appContext.SaveChanges();
             }
-            return ruta;
+        return ruta;
         }
     }
 }

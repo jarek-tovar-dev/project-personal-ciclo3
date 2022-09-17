@@ -7,22 +7,33 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using ProyectoCiclo3.App.Persistencia.AppRepositorios;
 using ProyectoCiclo3.App.Dominio;
  
-namespace ProyectoCiclo3.App.Frontend.Pages
-{
-    public class ListBusModel : PageModel
-    {
+namespace ProyectoCiclo3.App.Frontend.Pages{
+    
+    public class ListBusesModel : PageModel{
        
-        private readonly RepositorioBuses repositorioBuses;
-        public IEnumerable<Buses> Buses {get;set;}
+    private readonly RepositorioBuses repositorioBuses;
+    public IEnumerable<Buses> Buses {get;set;}
+    [BindProperty]
+    public Buses Bus {get;set;}
  
-    public ListBusModel(RepositorioBuses repositorioBuses)
-    {
+    public ListBusesModel(RepositorioBuses repositorioBuses){
         this.repositorioBuses=repositorioBuses;
-     }
+    }
  
     public void OnGet()
     {
         Buses=repositorioBuses.GetAll();
     }
+
+    public IActionResult OnPost()
+    {
+        if(Bus.id>0)
+        {
+            repositorioBuses.Delete(Bus.id);
+        }
+        return RedirectToPage("./List");
+    }
+
+
     }
 }
