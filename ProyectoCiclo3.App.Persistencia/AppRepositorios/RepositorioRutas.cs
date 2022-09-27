@@ -38,12 +38,19 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 
         public void Delete(int id)
         {
-        var ruta = _appContext.Rutas.Find(id);
-            if (ruta != null){
-                _appContext.Rutas.Remove(ruta);
-                _appContext.SaveChanges();            
+
+            try{
+                var ruta = _appContext.Rutas.Find(id);
+                    if (ruta != null){
+                        _appContext.Rutas.Remove(ruta);
+                        _appContext.SaveChanges();            
+                    }
+            }catch (Exception e){
+                    
+                    
             }
         }
+
 
         public Rutas Update(int id, int origen, int destino, int tiempo_estimado){            
             var ruta = _appContext.Rutas.Find(id);;
